@@ -1,6 +1,5 @@
 FROM centos:7
 MAINTAINER flaviusfirst3@gmail.com
-RUN echo "nameserver 8.8.8.8" > /etc/resolv.conf
 RUN yum install -y httpd \
  zip\
  unzip
